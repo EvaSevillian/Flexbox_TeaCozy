@@ -1,0 +1,151 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+
+}
+
+.image{
+    background-color: black;
+    padding: 0.7em;
+}
+
+.header__content{
+    background-color: black;
+    font-size: 22px;
+    display: flex;
+    text-decoration: underline;
+    list-style-type: none;
+    flex-direction: row;
+    float: inline-end;
+    margin-right: 10px;
+    gap: 2em;
+    
+}
+
+.body{
+    margin: 0;
+    padding: 0;    
+}
+
+.big__image{
+    width: 1200px;
+    height:800px;
+    margin-bottom: 2em;
+
+  }
+  
+.container{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    letter-spacing: .02cm;
+    
+}
+.all__images{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-align: center;
+    align-items:baseline;
+}
+
+.container1{
+  background-color: black;
+  position:absolute;
+  top: 50%;
+  width: 100%;
+   
+}
+
+
+.container2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .all__images {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    
+   
+  }
+  
+  figure {
+    margin: 0;
+    text-align: center;
+    flex-basis: 20%; 
+  }
+  
+  .seasonal, .spiced, .berry, .bedford {
+    width: 300px;
+    height: 200px;
+  }
+  
+  figcaption {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+.container3{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    letter-spacing: .02cm;
+
+}
+
+.location{
+    position:absolute;
+    text-align: center;
+    top: 16%;
+    width: 100%; 
+    font-size: x-large;
+         
+}
+
+.image__locations {
+    width: 1200px;
+    height:800px;
+    margin-top: 100px;
+    justify-content: center;
+    position: relative;
+    
+ }
+ 
+.downtown, .east, .oakdale {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+
+.boxes {
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 35em;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-left: 90px;
+    padding-right: 90px;
+
+
+}
+
+.contact{
+    color: #fff;
+    font-size:x-large;
+    margin-bottom: 2em;
+}
+
+.footer{
+    text-align: left;
+    padding-left: 20px ;
+}
